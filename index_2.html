@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- OG Tags -->
+    <!-- OG Tags -->
+    <meta property="og:title" content="You are invited to the wedding of Janssen and Angelica!">
+    <meta property="og:description" content="In God's perfect time. Your presence will complete our happiness.">
+    <meta property="og:image" content="https://monddiestro.github.io/img/og-image.png">
+    <!-- materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Qwigley&family=Radley:ital@1&family=Work+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <title>You are invited to the wedding of Janssen and Angelica!</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+
+        :root {
+            --p-green: #00432F;
+            --p-gold: #B28E64;
+            --p-black: #000;
+            --p-white: #fff;
+            --f-qwigley: 'Qwigley', cursive;
+            --f-radley: 'Radley', serif;
+            --f-work: 'Work Sans', sans-serif;
+            --f-s-r: 16px;
+            --f-s-m: 20px;
+            --f-s-l: 32px;
+            --f-s-xl: 48px;
+            --f-names: 144px;
+            --f-names-sm: 112px
+        }
+
+        /* google fonts */
+        .font-qwigley {
+            font-family: var(--f-qwigley);
+        }
+        .font-radley {
+            font-family: var(--f-radley);
+        }
+        .font-work-sans {
+            font-family: var(--f-work);
+        }
+        .f-light {
+            font-weight:300;
+        }
+        .f-medium {
+            font-weight:400;
+        }
+        .f-bold {
+            font-weight:500;
+        }
+
+
+        .parallax {
+            /* Set the parallax background */
+            background-image: url('img/_DSC6875.png');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* Set the height and make it fullscreen */
+            height: 100vh;
+
+        }
+
+        
+        .parallax-content {
+            /* Center the content vertically and horizontally */
+            /* display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: #ffffff;
+            text-align: center; */
+        }
+
+        .parallax-layer {
+            /* Create multiple parallax layers */
+            position: relative;
+            z-index: 1;
+        }
+
+        .parallax-layer:before {
+            /* Add a semi-transparent overlay to the layers */
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .parallax-layer .layer-content {
+            /* Style the layer content */
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+        @media (min-width: 300px) {
+        
+        }
+        @media (min-width: 769px) {
+            .parallax-content {
+                height: 100%; /* 100% height for mobile devices */
+                display:grid;
+            }
+        }
+    </style>
+</head>
+<body>
+  <div class="parallax">
+    <div class="parallax-content">
+      <div class="parallax-layer">
+        <div class="layer-content">
+          <h5 class="font-work-sans">In God's Perfect Time</h5>
+          <h1 class="font-qwigley">Jansen & Angelica</h1>
+          <button data-target="rsvp" class="btn modal-trigger btn-custom">RSVP</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax">
+    <div class="parallax-content">
+      <div class="parallax-layer">
+        <div class="layer-content">
+          <h1>About Me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax">
+    <div class="parallax-content">
+      <div class="parallax-layer">
+        <div class="layer-content">
+          <h1>Contact Me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h5 class="font-work-sans">In God's Perfect Time</h5>
+          <h1 class="font-qwigley">Jansen & Angelica</h1>
+          <button data-target="rsvp" class="btn modal-trigger btn-custom">RSVP</button>
+</body>
+</html>
